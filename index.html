@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Function Display</title>
+</head>
+<body>
+<h1>Welcome to Assignment 3 in Summer 2023</h1>
+<h2>Exercise 1</h2>
+<h2>A) Function: findSummation</h2>
+<form action="/findSummation" method="post">
+  <label for="number">Parameter(s): A positive integer number (default value =1)</label>
+  <input type="number" id="number" name="number" required>
+  <button type="submit">Submit</button>
+</form>
+
+<h2>B) Function: uppercaseFirstandLast</h2>
+<form action="/uppercaseFirstandLast" method="post">
+  <label for="string">Parameter(s) String</label>
+  <input type="text" id="string" name="string" required>
+  <button type="submit">Submit</button>
+</form>
+
+<h2>c) Function:Find Average and Median</h2>
+<form action="/findAverageAndMedian" method="post">
+  <label for="numbers">Parameter:An array of numbers</label>
+  <input type="text" id="numbers" name="numbers" required>
+  <button type="submit">Submit</button>
+</form>
+
+<h2>D) Function: Find 4-Digit Number</h2>
+<form action="/find4Digits" method="post">
+  <label for="numbers">Parameter:A string of numbers</label>
+  <input type="text" id="num" name="numbers" required>
+  <button type="submit">Submit</button>
+</form>
+
+<h2>Exercise 2</h2>
+<form action="/visits" method="get">
+  <button type="submit">Track Visits</button>
+</form>
+</body>
+</html>
+<h2>Exercise 3</h2>
+<form action="/checkPhoneNumber" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="phoneNumber">Phone Number (ddd-ddd-dddd):</label>
+  <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+  <small>Format: ddd-ddd-dddd</small><br><br>
+
+  <input type="submit" value="Submit">
+</form>
